@@ -119,7 +119,7 @@
          <div class="row align-items-center">
            <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
              <div class="card border-0">
-               <img src="images/img/img-1.png" class="img-fluid">
+               <img src="{% static 'images\img\img-1.png' %}" class="img-fluid">
              </div>
            </div>
            <div class="col-lg-5 col-md-12 text-sec">
@@ -143,7 +143,7 @@
            </div>
            <div class="col-lg-7 col-md-12">
              <div class="card border-0">
-               <img src="images/img/img-2.png" class="img-fluid">
+               <img src="{% static 'images\img\img-2.png' %}" class="img-fluid">
              </div>
            </div>
          </div>
@@ -187,7 +187,7 @@
          <div class="row pt-5">
            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
              <div class="card">
-               <img src="images/img/img-3.jpg" class="img-fluid">
+               <img src="{% static 'images\img\img-3.jpg' %}" class="img-fluid">
                <div class="pt-3">
                 <h4>Rainbow Vegetable Sandwich</h4>
                 <p>Time: 15 - 20 Minutes | Serves: 1</p>
@@ -197,7 +197,7 @@
            </div>
            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
             <div class="card">
-              <img src="images/img/img-4.jpg" class="img-fluid">
+              <img src="{% static 'images\img\img-4.jpg' %}" class="img-fluid">
               <div class="pt-3">
                 <h4>Vegetarian Burger</h4>
                 <p>Time: 30 - 45 Minutes | Serves: 1</p>
@@ -207,7 +207,7 @@
           </div>
           <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
             <div class="card">
-              <img src="images/img/img-5.jpg" class="img-fluid">
+              <img src="{% static 'images\img\img-5.jpg' %}" class="img-fluid">
               <div class="pt-3">
                 <h4>Raspberry Stuffed French Toast</h4>
                 <p>Time: 10 - 15 Minutes | Serves: 1</p>
@@ -241,7 +241,7 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div class="carousel-caption">
-                    <img src="images/review/review-1.jpg">
+                    <img src="{% static 'images/review/review-1.jpg' %}">
                     <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
                       live the blind texts. "</p>
                     <h5>Johnthan Doe - UX Designer</h5>
@@ -249,7 +249,7 @@
                 </div>
                 <div class="carousel-item">
                   <div class="carousel-caption">
-                    <img src="images/review/review-2.jpg">
+                    <img src="{% static 'images/review/review-2.jpg' %}">
                     <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
                       live the blind texts. "</p>
                     <h5>Maccy Doe - Front End</h5>
@@ -257,7 +257,7 @@
                 </div>
                 <div class="carousel-item">
                   <div class="carousel-caption">
-                    <img src="images/review/review-1.jpg">
+                    <img src="{% static 'images/review/review-1.jpg' %}">
                     <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
                       live the blind texts. "</p>
                     <h5>Johnthan Doe - UX Designer</h5>
@@ -280,7 +280,7 @@
             <h2>Baked fresh daily by bakers with passion.</h2>
            </div>
            <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
-             <button class="main-btn">Learn more</button>
+           
            </div>
          </div>
        </div>
@@ -350,6 +350,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
   <!-- own js -->
-  <script src="js/main.js"></script>
+  <script src="{% static 'main.js' %}"></script>
 </body>
 </html>
