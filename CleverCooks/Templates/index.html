@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clevercooks</title>
+</head>
+<style>
+    .hello-msg{
+        font-size: 18px;
+        color: black;
+        margin-right: 20px;
+    }
+    .hello-msg-usr{
+        font-size: 28px;
+        color: black;
+        margin-left: 700px;
+        font-family: cursive;
+    }
+</style>
+<body>
+    <a class= "hello-msg" href='login'>Login</a>
+    <span class= "hello-msg"><a href="{% url 'logout' %}">Logout</a></span><br><br>
+    <span class= "hello-msg-usr">Hello {{request.user}}!</span>
+    
+</body>
+</html>
