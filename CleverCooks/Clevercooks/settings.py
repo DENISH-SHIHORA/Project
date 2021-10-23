@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'Clevercooks.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'CleverCook',
+        'NAME': 'CleverCooks',
         'USER' : 'postgres',
-        'PASSWORD' : 'Dhruv05',
+        'PASSWORD' : 'admin',
         'HOST':'localhost'
 
     }
