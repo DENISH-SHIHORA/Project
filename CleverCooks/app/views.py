@@ -49,4 +49,5 @@ def register(request):
 
         context = {'form':form}
         return render(request, 'register.html', context)
-        
+def reciepes(request):
+    return render(request,'reciepes.html')

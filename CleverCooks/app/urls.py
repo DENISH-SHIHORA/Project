@@ -8,6 +8,7 @@ urlpatterns = [
     path('login',views.loginpage,name='login'),
     path('logout',views.logoutUser,name='logout'),
     path('register',views.register,name='register'),
+    path('reciepes',views.reciepes,name='reciepes'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
